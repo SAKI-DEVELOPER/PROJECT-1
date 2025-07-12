@@ -1,0 +1,368 @@
+body {
+background-color: cadetblue;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+input {
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    border-radius: 3rem;
+    width: 20%;
+    min-width: 25rem;
+    border: none;
+    outline: 1px solid rgb(165, 165, 165);
+}
+
+button {
+    border-radius: 3rem;
+    width: 5%;
+    min-width: 8rem;
+    background-color: rgb(255, 187, 98);
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    
+}
+
+button:active{
+    opacity: 0.6;
+}
+
+button:focus{
+    outline: none;
+    border: 1px solid rgb(44, 61, 4);
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 5rem;
+    padding: 3rem 2rem 2rem 2rem;
+    
+}
+
+.content a{
+    text-decoration: none;
+    color: black;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 1rem;
+    border: 1px solid rgb(197, 197, 197);
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+    background-color: aliceblue;
+}
+
+
+.card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    cursor: pointer;
+    
+}
+
+.card img:hover{
+box-shadow: 5px 5px 25px rgb(150, 150, 150);
+transition: all 0.3s;
+}
+.contentContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 10% 5% 10%;
+    gap: 6rem;
+}
+
+
+.d-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    /* border: 2px solid red; */
+    column-gap: 4rem;
+    padding: 3% 3% 1% 3%;
+}
+
+.mlImg {
+    width: 30%;
+    height: 30%;
+    min-width: 300px;
+    min-height: 250px;
+    /* border: 2px solid rgb(0, 255, 242); */
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    padding: 0% 2rem 1% 2rem;
+    box-shadow: 2px 2px 25px rgb(22, 22, 22);
+}
+
+.mlImg img {
+    width: 100%;
+    height: 50%;
+    min-width: 250px;
+    min-height: 150px;
+
+
+    
+    border-radius: 2rem;
+}
+
+#mealDetail {
+    width: 30%;
+    height: 30%;
+    min-width: 270px;
+    min-height: 250px;
+    /* border: 2px solid rgb(94, 255, 0); */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    padding: 0% 3% 1% 3%;
+    box-shadow: 2px 2px 25px rgb(22, 22, 22);
+}
+
+
+#mealDetail a img{
+    min-height: 6rem;
+    min-width: 6rem;
+    height: 10%;
+    width: 20%;
+    justify-self: center;
+    align-self: center;
+    margin-left: 7%;
+    cursor: pointer;
+}
+
+.instructions {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    column-gap: 4rem;
+    padding: 3% 3% 1% 3%;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 25px rgb(22, 22, 22);
+    width: 50%;
+    min-width: 450px;
+    
+}
+
+/* .instructions h2 {
+    text-decoration: underline;
+    display: block;
+} */
+.ingredients {
+    width: 40%;
+    min-width: 350px;
+    min-height: 250px;
+    /* border: 2px solid rgb(255, 217, 0); */
+    background-color: aliceblue;
+    border-radius: 1rem;
+    padding: 0% 3% 1% 3%;
+    box-shadow: 2px 2px 25px rgb(22, 22, 22);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+
+}
+
+.gredient1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    /* border: 2px solid red; */
+    width: 80%;
+
+}
+.gredient2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    /* border: 2px solid red; */
+    width: 80%;
+
+}
+.gredient3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    /* border: 2px solid red; */
+    width: 80%;
+
+}
+.gredient4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    /* border: 2px solid red; */
+    width: 80%;
+
+}
+
+.gredient1 img{
+    width: 100px;
+    height: 100px;
+    
+}
+.gredient2 img{
+    width: 100px;
+    height: 100px;
+    
+}
+.gredient3 img{
+    width: 100px;
+    height: 100px;
+    
+}
+.gredient4 img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+.back {
+    position: absolute;
+    margin: 10rem;
+}
+
+span{
+    width: 100rem;
+}
+
+@media (max-width:997px){
+    .d-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+}
+
+@media (max-width:777px) {
+    .content {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    padding: 5% 5% 0% 5%;
+    row-gap: 2rem;
+    column-gap: 0rem;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border:  2px solid red; */
+    
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0rem 3rem 0rem 3rem;
+    margin-top: 2rem;
+}
+
+.header input{
+    flex: 3;
+}
+
+.header button{
+    flex: 1;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-radius: 1rem;
+    border: 1px solid rgb(197, 197, 197);
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+    background-color: aliceblue;
+}
+
+
+
+}
+
+
+@media (max-width:456px) {
+    .content {
+    display: grid;
+    grid-template-columns: 80%;
+    padding: 5% 5% 0% 5%;
+    row-gap: 2rem;
+    column-gap: 0rem;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border:  2px solid red; */
+    
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0rem 3rem 0rem 3rem;
+    margin-top: 2rem;
+}
+
+.header input{
+    flex: 3;
+}
+
+.header button{
+    flex: 1;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 1rem;
+    border: 1px solid rgb(197, 197, 197);
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+    background-color: aliceblue;
+}
+
+.instructions {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 40%;
+    margin: 0rem 2rem 0rem 2rem;
+}
+}
