@@ -168,7 +168,7 @@ let ingredients = document.getElementById("ingredients");
             let watch = document.createElement("h3");
             let youtubeLink = document.createElement("a");
             let youtubeIcon = document.createElement("img");
-            youtubeIcon.src = `./images/youtube.png`;
+            youtubeIcon.src = `youtube.png`;
             
             
             
